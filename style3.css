@@ -1,0 +1,115 @@
+body {
+  padding: 20px;
+  background: #1c233d;
+}
+.search {
+  position: relative;
+}
+.search input {
+  width: 100%;
+  background-color: #1c233d;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+input::placeholder {
+  color: white;
+  font-size: 12px;
+}
+.search svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+.touch li {
+  list-style: none;
+  list-style-type: none;
+  display: inline;
+  margin: 0 20px;
+  font-size: 10px;
+  color: white; 
+}
+.name h4 {
+  text-align: right;
+  color: white;
+}
+.contents {
+  padding-top: 0;
+  padding-left: 82px;
+}
+.btn {
+  border-radius: 5px;
+  font-size: 13px;
+  color: white;
+  background-image: linear-gradient(to right, rgb(147, 49, 147), rgb(129, 125, 125));
+}
+.heading {
+  padding: 20px;
+}
+.heading h1 {
+  font-size: 70px;
+  font-family: Space Grotesk;
+  font-weight: 600;
+  color: white;
+}
+.heading p {
+  color: white;
+  font-size: 17px;
+  padding-right: 20%;
+}
+.discover button {
+  width: 40%;
+  font-size: 18px;
+}
+.item li,
+.minianh li {
+  color: white;
+  list-style-type: none;
+  display: inline;
+}
+.item li {
+  font-size: 26px;
+  font-weight: 700;
+  margin-right: 50px;
+}
+.minianh li {
+  font-size: 12px;
+  margin-right: 65px;
+}
+.frame {
+  position: absolute;
+  width: 404px;
+  height: 427px;
+  left: 651px;
+  top: 116px;
+  background: #30384d;
+  border-radius: 10px;
+}
+.frame img {
+  width: 425px;
+  height: 440px;
+}
+.brand li{
+    list-style-type: none;
+}
+.brand img{
+    background-image: r;
+    background-color: #1c233d;
+    
+}
+.brand li{
+  list-style-type: none;
+  display: inline;
+  align-content: end ;
+}
+.brand li img{
+  background-image: none;
+  width: 15%;
+  flex-shrink: 0;
+}
+footer{
+  text-align: right;
+  margin-right: 10%
+}
+
+
